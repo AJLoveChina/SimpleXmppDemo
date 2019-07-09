@@ -8,7 +8,7 @@
 
 
 #### snapshots
-![ScreenShot](https://raw.github.com/AJLoveChina/SimpleXmppDemo/master/public/xmpp-simple-demo.gif)
+![ScreenShot](https://raw.github.com/AJLoveChina/SimpleXmppDemo/master/static/xmpp-simple-demo.gif)
 
 
 
@@ -17,3 +17,7 @@
 * then there are quick guide tips on the index web page
 
 > Tomcat and http-server(a nodejs library) both can serve static files.
+
+
+
+### About strophe

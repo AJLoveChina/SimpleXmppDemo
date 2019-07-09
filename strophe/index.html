@@ -1,0 +1,59 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Strophe.js Echobot Example</title>
+    <script type='text/javascript'
+            src='../static/jquery.1.10.js'></script>
+    <script type='text/javascript'
+            src='strophe.1.2.16.js'></script>
+    <script type='text/javascript'
+            src='echobot.js'></script>
+</head>
+<body>
+
+
+<div>
+    <h6>使用教程</h6>
+    <ul>
+        <li>访问 <a href="https://404.city/#registration" target="_blank">https://404.city/#registration</a> 注册一个账号</li>
+        <li>用这个账号&&密码登陆</li>
+    </ul>
+</div>
+
+<div>
+    <h6>Tip:当然如果你不想注册账号,或者你不知道如何注册,我这里提供了一个测试账号</h6>
+    <Ul>
+        <li>账号 : ajlovechina2@404.city</li>
+        <li>密码 : 123456789</li>
+    </Ul>
+</div>
+
+<div>
+    <h4>教程GIF</h4>
+    <a href="../static/strophe-simple-demo.gif" target="_blank">登陆教程GIF</a> <br>
+    <a href="../static/strophe-message-send-get.mp4" target="_blank">发送消息/接受消息教程VIDEO</a> <br>
+</div>
+
+<div style="height:20px;"></div>
+<div id='login' style='text-align: center'>
+    <form name='cred'>
+        <label for='jid'>JID:</label>
+        <input type='text' id='jid'/>
+        <label for='pass'>Password:</label>
+        <input type='password' id='pass'/>
+        <input type='button' id='connect' value='connect'/>
+    </form>
+</div>
+
+
+<div id="huifu" style="display: none">
+    对方地址: <input type="text" id="to-jid">
+    发送内容: <input type="text" id="to-message">
+    <button id="send-message">send</button>
+</div>
+
+
+<hr/>
+<div id='log'></div>
+</body>
+</html>
